@@ -65,7 +65,7 @@ geoip, cn, direct
 final, Final
 
 [rewrite_local]
-#
+^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
 [task_local]
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体解锁查询, img-url=arrowtriangle.right.square.system, enabled=true
