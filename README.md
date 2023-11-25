@@ -1,3 +1,3 @@
 hola!
 
-xjb written & personal use only
+xjb written && personal use only
